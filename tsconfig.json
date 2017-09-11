@@ -1,0 +1,19 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "target": "es2015",
+        "noImplicitAny": false,
+        "sourceMap": false,
+        "outDir": "bin",
+        "jsx": "react",
+        "skipLibCheck": true,
+        "experimentalDecorators": true,
+        "typeRoots": [
+            "node_modules/@types",
+            "src/typings"
+        ]
+    },
+    "exclude": [
+        "node_modules"
+    ]
+}
